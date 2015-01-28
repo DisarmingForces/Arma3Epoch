@@ -1,0 +1,41 @@
+
+
+
+
+!"_smoke1 attachTo [_v,[0,0,0],"engine_effect_1"];"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!"if (isDedicated) then {[] execVM "\q\addons\zombiemission\init.sqf";};"
+
+
+!"_this select 0 addMagazines [_this select 5, 1];"
+
+
+
+!="_this;"
+!="_this;"
+!="_this;"
+!="_this;"
+
+
+
+
+
+
+
+
+
+"_markerPos = _this select"
