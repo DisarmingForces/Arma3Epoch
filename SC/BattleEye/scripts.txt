@@ -1,5 +1,5 @@
 
-
+!"_onScreenTime,"
 
 
 !"_smoke1 attachTo [_v,[0,0,0],"engine_effect_1"];"
@@ -15,7 +15,7 @@
 
 
 
-
+ !" GRIDREF: %7 | RESTART IN: %8:%9", round diag_fps, count playableUnits, damage player, EPOCH_playerCrypto, EPOCH_playerHunger, E"
 
 
 !"if (isDedicated) then {[] execVM "\q\addons\zombiemission\init.sqf";};"
@@ -38,4 +38,10 @@
 
 
 
-"_markerPos = _this select"
+!"_markerPos = _this select"
+!"_marker"
+!"_marker"
+
+
+
+!"([4654.62,9593.63,0] nearestObject 145259) setDamage 1;"
