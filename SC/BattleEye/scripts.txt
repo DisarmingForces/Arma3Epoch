@@ -1,4 +1,4 @@
-
+!"(uinamespace getvariable 'BIS_fnc_effectFired')"
 !"_onScreenTime,"
 
 
