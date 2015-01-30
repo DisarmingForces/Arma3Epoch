@@ -15,10 +15,10 @@
 
 
 
- !" GRIDREF: %7 | RESTART IN: %8:%9", round diag_fps, count playableUnits, damage player, EPOCH_playerCrypto, EPOCH_playerHunger, E"
+!="FPS: %1 | PLAYERS: %2 | DAMAGE: %3 | KRYPTO: %4 | HUNGER: %5 | THIRST: %6 | SOILED: %7 | GRIDREF: %8", round diag_fps, count playableUnits, damage player, EPOCH_playerCrypto, EPOCH_playerHunger, EPOCH_playerThirst, EPOCH_playerSoiled, mapGridPosition player, _counter""
 
-
-!"if (isDedicated) then {[] execVM "\q\addons\zombiemission\init.sqf";};"
+!="if(!isPlayer _x)then{_x allowDamage"
+!="execVM \"semClient.sqf\"" !="execVM \"\\q\\addons\\zombiemission\\init.sqf\"" !="execVM \"\MPMissions\epoch.Chernarus\scripts\fn_statusBar.sqf\""
 
 
 !"_this select 0 addMagazines [_this select 5, 1];"
@@ -38,9 +38,9 @@
 
 
 
-!"_markerPos = _this select"
-!"_marker"
-!"_marker"
+!="deleteMarkerLocal format[\"SEM_MissionMarker" !"_markerPos = _this select"
+!="Local" !"_marker"
+!="createMarkerLocal [format[\"SEM_MissionMarker" !"_marker"
 
 
 
