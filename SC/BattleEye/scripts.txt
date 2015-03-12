@@ -21,14 +21,14 @@
 !="execVM \"semClient.sqf\"" !="execVM \"\\q\\addons\\zombiemission\\init.sqf\"" !="execVM \"\MPMissions\epoch.Chernarus\scripts\fn_statusBar.sqf\""
 
 
-!"_this select 0 addMagazines [_this select 5, 1];"
+!"_this select 0 addMagazines [_this select 5, 1];" !"this" !"addHeadgear" !"addMagazines" !"addWeapon" 
 
 
 
-!="_this;"
-!="_this;"
-!="_this;"
-!="_this;"
+!="_this;" !"removeBackpack" !"removeallitems" !"removeAllWeapons" !"forceAddUniform" !"this" !"removeHeadgear"
+!="_this;" !"removeBackpack" !"removeallitems" !"removeAllWeapons" !"forceAddUniform" !"this" !"removeHeadgear"
+!="_this;" !"removeBackpack" !"removeallitems" !"removeAllWeapons" !"forceAddUniform" !"this" !"removeHeadgear"
+!="_this;" !"removeBackpack" !"removeallitems" !"removeAllWeapons" !"forceAddUniform" !"this" !"removeHeadgear"
 
 !"setviewdistance 50;" !"filmGrain"
 !"_AIGroup = createGroup RESISTANCE;"
